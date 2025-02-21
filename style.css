@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+   
+}
+
+header {
+    color: gray;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 44px 0 144px 76px; /*técnica do relógio: 12h, 3h, 6h e 9h. Dessa forma 
+    se especifica a margem*/ 
+    padding: 10px;
+    word-spacing: 30px;
+    cursor: pointer;
+}
+
+.entrar {
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+    line-height: 30px;
+    background-color: rgb(174, 110, 233);
+    border: none;
+    border-radius: 20px;
+    width: 110px;
+    height: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+img {
+    width: 570px;
+    height: 500px;
+    margin-top: 150px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    width: 500px;
+    text-align: justify;
+    margin-left: 86px;
+}
+
+.viajar {
+    color: black;
+    background: rgb(53, 253, 53);
+    text-transform: uppercase;
+    width: 170px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px) rgb(0, 0,0,0, 25);
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 90px;
+    font-weight: 900;
+    color: rgb(61, 59, 59);
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 58px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 400;
+    color: gray;
+    margin-top: 32px;
+    margin-bottom: 64px;
+}
+
+@media screen and (max-width: 930px) {
+    
+    main{
+width: 100vw;
+height: 100vh;
+    }
+
+    header{
+        display:none;
+    }
+
+    p{
+        display: none;
+    }
+
+    img{
+        width: 90vw;
+        height: 50%;
+        margin: 115px 0px 0 10px;
+
+      
+    }
+
+  .viajar{
+    display:block;
+        height: 64px;
+    font-size: 28px;
+    margin: 0 79px;
+      width: 239px;
+height: 64px;
+flex-shrink: 0;
+}
+
+h1{
+    font-size: 50px;
+    margin: 0 79px;
+    width: 263px;
+    height: 52px;
+}
+
+h2{
+    width: 232px;
+    height: 37px;
+       font-weight: 500;
+        font-size: 30px;
+        margin: 0 79px;
+}
+}
+
+@media screen and (max-width:450px) {
+    
+    h1, h2, .viajar{
+        margin: 0px 79px 0px -30px;
+    }
+}
+@media screen and (max-width:330px) {
+    
+    h1, h2, .viajar{
+        display: none;
+    }
+}
